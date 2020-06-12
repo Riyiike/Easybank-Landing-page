@@ -1,0 +1,91 @@
+:root {
+  font-size: 62.5%;
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif !important;
+  font-size: 1.8rem;
+}
+.container {
+  width: 85%;
+  margin: 0px auto;
+}
+
+/*page-header & navbar*/
+
+.page-header {
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar a {
+  text-decoration: none;
+  transition: 0.2s;
+  color: black;
+  display: inline-block;
+  line-height: 30px;
+  height: 30px;
+  margin: 1rem;
+}
+
+.navbar a:hover {
+  color: #222026;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.main-content {
+  background: url(/images/image-mockups.png) no-repeat;
+  /*height: 60vh;*/
+  background-position: left -5%;
+  background-size: 450px 350px;
+  position: absolute;
+}
+
+.info {
+  padding-top: 4rem;
+}
+
+.info h1.info-heading {
+  font-size: 5rem;
+  font-weight: bolder;
+  padding-bottom: 0.8px;
+}
+
+.info .info-description {
+  color: hsl(257, 7%, 63%);
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.info button {
+  font-size: 1.3rem;
+  padding: 0.7rem 2.3rem;
+}
+
+.image {
+  display: none;
+}
+
+.btn{
+
+}
