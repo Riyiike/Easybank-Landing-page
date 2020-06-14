@@ -120,3 +120,21 @@ a:hover {
 h4:hover {
   color: var(--BrightCyan);
 }
+
+/*____Footer Section____*/
+.footerSection-bg {
+  background-color: var(--DarkBlue);
+}
+.footerSection {
+  color: white;
+  max-width: 1350px;
+}
+ul {
+  list-style: none;
+}
+.icon:hover {
+  color: var(--LimeGreen);
+}
+.footerli:hover {
+  color: var(--LimeGreen);
+}
