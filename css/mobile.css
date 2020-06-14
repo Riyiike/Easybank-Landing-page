@@ -1,5 +1,5 @@
 /* Page-header and navbar */
-.mobile-nav{
+#mobile-nav{
   
   display: none;
   right: 0px;
@@ -25,7 +25,7 @@
 
 /*  Intro section and Description  */
 .mobile-bg {
-  background-image: url(images/bg-intro-mobile.svg);
+  background-image: url(/images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: 100vw auto;
   background-position: 0px 55px;
