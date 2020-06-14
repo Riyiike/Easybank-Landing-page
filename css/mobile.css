@@ -1,6 +1,5 @@
 /* Page-header and navbar */
-#mobile-nav{
-  
+ #navbar{   
   display: none;
   right: 0px;
   left: 0px;
@@ -23,6 +22,9 @@
   z-index: 1;
 }
 
+.container{
+  /* display: none; */
+}
 /*  Intro section and Description  */
 .mobile-bg {
   background-image: url(/images/bg-intro-mobile.svg);
